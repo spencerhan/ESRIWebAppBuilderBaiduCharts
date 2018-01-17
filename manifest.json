@@ -1,0 +1,31 @@
+{
+  "name": "3DChart",
+  "label": "3DChart",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "0.0.1",
+  "wabVersion": "2.6",
+  "author": "",
+  "description": "Adding 3D graphics in widget panel",
+  "copyright": "",
+  "license": "",
+  "properties": {
+    "inPanel": true,
+    "hasLocale": true,
+    "hasStyle": true,
+    "hasConfig": true,
+    "hasUIFile": true,
+    "hasSettingPage": false,
+    "hasSettingUIFile": false,
+    "hasSettingLocale": false,
+    "hasSettingStyle": false,
+    "IsController": false
+  },
+  "featureActions": [
+    {
+      "name": "Show3DChart",
+      "uri": "Show3DChartFeatureAction"
+    }
+  ]
+}
